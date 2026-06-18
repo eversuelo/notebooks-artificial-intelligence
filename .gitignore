@@ -1,0 +1,58 @@
+# --- Project-specific ---
+old-docs/*
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# --- Python bytecode / caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.python-version
+
+# --- Distribution / packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Generated artifacts from notebooks ---
+# Saved arrays / models / scratch outputs produced by the examples
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.h5
+*.ckpt
+demo_array.npy
+np.csv
+pd.csv
+new_file.csv
+
+# --- Environment / secrets ---
+.env
+.env.*
+*.local
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
